@@ -1,0 +1,6 @@
+Privacy cleanup performed before publication:
+- Original PNG metadata was discarded by pixel-only re-encoding.
+- Screenshot filenames were replaced with generic project filenames.
+- Windows username/account text was overwritten.
+- Hostname, MAC addresses, local IPv4/gateway, link-local IPv6 and DHCP device identifiers were redacted where visible.
+- ZIP entry timestamps were normalized.
