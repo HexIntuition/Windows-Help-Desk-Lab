@@ -10,6 +10,7 @@ Hands-on Windows support lab built around simulated end-user incidents. Each tic
 |---|---|---|---|
 | [Ticket 01 — DNS Resolution Failure](./01-dns-resolution/) | Workstation has IP connectivity but cannot resolve hostnames | DNS, TCP/IP, Command Prompt | ✅ Resolved |
 | [Ticket 02 — Print Spooler Service Failure](./02-print-spooler/) | Windows printing fails because the Print Spooler service is stopped | Windows Services, Printing, CLI | ✅ Resolved |
+| [Ticket 03 — Outlook Offline Mode](./03-outlook-offline-mode/) | Outlook cannot send or receive while Work Offline is enabled | Outlook, Exchange, TCP/IP, DNS | ✅ Resolved |
 
 ## Troubleshooting Workflow
 
@@ -28,6 +29,8 @@ Hands-on Windows support lab built around simulated end-user incidents. Each tic
 - TCP/IP and DNS diagnostics
 - Windows Services
 - Printer troubleshooting
+- Microsoft Outlook troubleshooting
+- Microsoft Exchange client connectivity
 - Command Prompt diagnostics
 - Root-cause isolation
 - Resolution verification
