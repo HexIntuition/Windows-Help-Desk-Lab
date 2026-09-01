@@ -12,6 +12,7 @@ Hands-on Windows support lab built around simulated end-user incidents. Each tic
 | [Ticket 02 — Print Spooler Service Failure](./02-print-spooler/) | Windows printing fails because the Print Spooler service is stopped | Windows Services, Printing, CLI | ✅ Resolved |
 | [Ticket 03 — Outlook Offline Mode](./03-outlook-offline-mode/) | Outlook cannot send or receive while Work Offline is enabled | Outlook, Exchange, TCP/IP, DNS | ✅ Resolved |
 | [Ticket 04 — Windows NTFS Permissions / Access Denied](./04-windows-ntfs-permissions/) | User cannot access a required folder because the account lacks NTFS permissions | NTFS, ACLs, `icacls`, `takeown` | ✅ Resolved |
+| [Ticket 05 — Shared Folder Unavailable](./05-shared-folder-unavailable/) | User can reach the system but the expected Windows network share is unavailable | SMB, UNC paths, `net share` | ✅ Resolved |
 
 ## Troubleshooting Workflow
 
@@ -34,6 +35,7 @@ Hands-on Windows support lab built around simulated end-user incidents. Each tic
 - Microsoft Exchange client connectivity
 - Windows NTFS permissions and ACL troubleshooting
 - File/folder ownership and access recovery
+- Windows file sharing and SMB/UNC troubleshooting
 - Command Prompt diagnostics
 - Root-cause isolation
 - Resolution verification
